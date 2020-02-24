@@ -1,8 +1,8 @@
-package Practicals.Practical3;
+package practicals.practical3;
 
-import Practicals.Practical3.CMatrix.IntArray;
-import Practicals.Practical3.CMatrix.MatrixInterface;
-import Practicals.Practical3.CMatrix.MatrixServiceService;
+import practicals.practical3.CMatrix.IntArray;
+import practicals.practical3.CMatrix.MatrixInterface;
+import practicals.practical3.CMatrix.MatrixServiceService;
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;

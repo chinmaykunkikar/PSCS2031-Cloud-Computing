@@ -1,4 +1,4 @@
-package Practicals.Practical2;
+package practicals.practical2;
 
 import javax.xml.namespace.QName;
 import javax.xml.ws.Service;
@@ -11,7 +11,7 @@ class TimeClient {
 		// Qualified name of the service
 		// 1st arg is the service URI
 		// 2nd is the service name published in the WSDL
-		final QName qname = new QName("http://Practical2.Practicals/", "TimeServerImplService");
+		final QName qname = new QName("http://practical2.practicals/", "TimeServerImplService");
 
 		// Create, in effect, a factory for the service
 		final Service service = Service.create(url, qname);

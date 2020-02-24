@@ -1,4 +1,4 @@
-package Practicals.Practical3;
+package practicals.practical3;
 /*
 Java Program to Implement Strassen Algorithm
 */

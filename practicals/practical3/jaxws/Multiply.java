@@ -1,5 +1,5 @@
 
-package Practicals.Practical3.jaxws;
+package practicals.practical3.jaxws;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-@XmlRootElement(name = "multiply", namespace = "http://Practical3.Practicals/")
+@XmlRootElement(name = "multiply", namespace = "http://practical3.practicals/")
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "multiply", namespace = "http://Practical3.Practicals/", propOrder = {
+@XmlType(name = "multiply", namespace = "http://practical3.practicals/", propOrder = {
     "arg0",
     "arg1"
 })

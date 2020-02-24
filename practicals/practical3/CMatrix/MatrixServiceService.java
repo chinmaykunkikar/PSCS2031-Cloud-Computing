@@ -1,5 +1,5 @@
 
-package Practicals.Practical3.CMatrix;
+package practicals.practical3.CMatrix;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -17,14 +17,14 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "MatrixServiceService", targetNamespace = "http://Practical3.Practicals/", wsdlLocation = "http://localhost:8883/matrix?wsdl")
+@WebServiceClient(name = "MatrixServiceService", targetNamespace = "http://practical3.practicals/", wsdlLocation = "http://localhost:8883/matrix?wsdl")
 public class MatrixServiceService
     extends Service
 {
 
     private final static URL MATRIXSERVICESERVICE_WSDL_LOCATION;
     private final static WebServiceException MATRIXSERVICESERVICE_EXCEPTION;
-    private final static QName MATRIXSERVICESERVICE_QNAME = new QName("http://Practical3.Practicals/", "MatrixServiceService");
+    private final static QName MATRIXSERVICESERVICE_QNAME = new QName("http://practical3.practicals/", "MatrixServiceService");
 
     static {
         URL url = null;
@@ -69,7 +69,7 @@ public class MatrixServiceService
      */
     @WebEndpoint(name = "MatrixServicePort")
     public MatrixInterface getMatrixServicePort() {
-        return super.getPort(new QName("http://Practical3.Practicals/", "MatrixServicePort"), MatrixInterface.class);
+        return super.getPort(new QName("http://practical3.practicals/", "MatrixServicePort"), MatrixInterface.class);
     }
 
     /**
@@ -81,7 +81,7 @@ public class MatrixServiceService
      */
     @WebEndpoint(name = "MatrixServicePort")
     public MatrixInterface getMatrixServicePort(WebServiceFeature... features) {
-        return super.getPort(new QName("http://Practical3.Practicals/", "MatrixServicePort"), MatrixInterface.class, features);
+        return super.getPort(new QName("http://practical3.practicals/", "MatrixServicePort"), MatrixInterface.class, features);
     }
 
     private static URL __getWsdlLocation() {

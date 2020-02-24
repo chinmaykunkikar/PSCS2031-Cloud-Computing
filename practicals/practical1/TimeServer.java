@@ -1,4 +1,4 @@
-package Practicals.Practical2;
+package practicals.practical1;
 
 import javax.jws.WebService;
 import javax.jws.WebMethod;
@@ -17,14 +17,8 @@ Style.RPC simplifies the contract and makes deployment easier
 */
 
 @WebService
-@SOAPBinding(style = Style.DOCUMENT)
+@SOAPBinding(style=Style.RPC)
 public interface TimeServer {
-	@WebMethod
-	String getTimeAsString();
-
-	@WebMethod
-	long getTimeAsElapsed();
-
-	@WebMethod
-	int getSomething();
+	@WebMethod String getTimeAsString();
+	@WebMethod long getTimeAsElapsed();
 }

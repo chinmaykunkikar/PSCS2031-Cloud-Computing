@@ -1,4 +1,4 @@
-package Practicals.Practical2;
+package practicals.practical2;
 
 import javax.xml.ws.Endpoint;
 

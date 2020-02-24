@@ -1,10 +1,10 @@
-package Practicals.Practical3;
+package practicals.practical3;
 
 import javax.jws.WebService;
 import javax.jws.WebMethod;
 
 /* Both SIB and SEI is not implemented together */
-@WebService(endpointInterface = "Practicals.Practical3.MatrixInterface")
+@WebService(endpointInterface = "practicals.practical3.MatrixInterface")
 public class MatrixService implements MatrixInterface {
 	private MatrixUtility utils;
 

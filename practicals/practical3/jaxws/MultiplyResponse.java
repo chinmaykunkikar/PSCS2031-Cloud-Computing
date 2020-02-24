@@ -1,5 +1,5 @@
 
-package Practicals.Practical3.jaxws;
+package practicals.practical3.jaxws;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -7,9 +7,9 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-@XmlRootElement(name = "multiplyResponse", namespace = "http://Practical3.Practicals/")
+@XmlRootElement(name = "multiplyResponse", namespace = "http://practical3.practicals/")
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "multiplyResponse", namespace = "http://Practical3.Practicals/")
+@XmlType(name = "multiplyResponse", namespace = "http://practical3.practicals/")
 public class MultiplyResponse {
 
     @XmlElement(name = "return", namespace = "", nillable = true)

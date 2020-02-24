@@ -1,5 +1,5 @@
 
-package Practicals.Practical3.CMatrix;
+package practicals.practical3.CMatrix;
 
 import java.util.List;
 import javax.jws.WebMethod;
@@ -18,7 +18,7 @@ import javax.xml.ws.ResponseWrapper;
  * Generated source version: 2.2
  * 
  */
-@WebService(name = "MatrixInterface", targetNamespace = "http://Practical3.Practicals/")
+@WebService(name = "MatrixInterface", targetNamespace = "http://practical3.practicals/")
 @XmlSeeAlso({
     ObjectFactory.class
 })
@@ -30,13 +30,13 @@ public interface MatrixInterface {
      * @param arg1
      * @param arg0
      * @return
-     *     returns java.util.List<Practicals.Practical3.CMatrix.IntArray>
+     *     returns java.util.List<practicals.practical3.CMatrix.IntArray>
      */
     @WebMethod
     @WebResult(targetNamespace = "")
-    @RequestWrapper(localName = "multiply", targetNamespace = "http://Practical3.Practicals/", className = "Practicals.Practical3.CMatrix.Multiply")
-    @ResponseWrapper(localName = "multiplyResponse", targetNamespace = "http://Practical3.Practicals/", className = "Practicals.Practical3.CMatrix.MultiplyResponse")
-    @Action(input = "http://Practical3.Practicals/MatrixInterface/multiplyRequest", output = "http://Practical3.Practicals/MatrixInterface/multiplyResponse")
+    @RequestWrapper(localName = "multiply", targetNamespace = "http://practical3.practicals/", className = "practicals.practical3.CMatrix.Multiply")
+    @ResponseWrapper(localName = "multiplyResponse", targetNamespace = "http://practical3.practicals/", className = "practicals.practical3.CMatrix.MultiplyResponse")
+    @Action(input = "http://practical3.practicals/MatrixInterface/multiplyRequest", output = "http://practical3.practicals/MatrixInterface/multiplyResponse")
     public List<IntArray> multiply(
         @WebParam(name = "arg0", targetNamespace = "")
         List<IntArray> arg0,

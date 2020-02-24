@@ -1,5 +1,5 @@
 
-package Practicals.Practical3.CMatrix;
+package practicals.practical3.CMatrix;
 
 import java.util.ArrayList;
 import java.util.List;
